@@ -14,8 +14,8 @@ What things you need to install:
 
 * JDK 1.8
 * IDEA (Recommend!)/ Vscode/ Eclipse
-Notice: 
-I leave the "/mvn/warpper/maven-wrapper.jar" in the git remote repository, It can developer to run this project without installing maven at first. 
+* Notice: 
+I leave the "/mvn/warpper/maven-wrapper.jar" in the git remote repository, developer can run this project without installing maven at first. 
 
 ## Install and start the back-end project (After that, come to front-end and run it)
 
@@ -29,7 +29,7 @@ I leave the "/mvn/warpper/maven-wrapper.jar" in the git remote repository, It ca
 
 Notice: 
 * If you have not install java jdk, the VScode will show the install recommadation automaticly, **please choose jdk8**.
-* If it can not run, please run the following command to install mvn.
+* If it can not run, please run the following command to install mvn.  
 ```bash``` mvn clean install
 * If there are some unexpected bug, please restart the VScode. It always works, Thank you!
 
@@ -50,7 +50,7 @@ Notice:
 
 ## About MySql Database 
 
-To avoid developer to config local Mysql database, I build the remote database on AWS.
+To avoid developer to config local Mysql database, I build the remote database on AWS.  
 I will keep running the EC2. 
 
 
