@@ -47,6 +47,12 @@ Notice:
 * If there are some unexpected bug, please restart the VScode. It always works, Thank you!
 
 
+## About Port conflict  
+You can change the back-end. In "src/main/resources/application.properties", just change the port.   
+The default port is 8090.
+![image](https://user-images.githubusercontent.com/87680634/230807456-d0d8664d-0cca-4a37-84b7-0df6e13e69e1.png)
+
+
 
 ## About MySql Database 
 
