@@ -53,7 +53,8 @@ Password: 123456
 ## In /Postman-test-case
 There is a postman test case. You can import it in Postman to test the API in back-end without running the front-end.
 
-
+## Just in case
+I package a back-end jar. 
 
 # About Author
 Yifu (Ethan) Wang
