@@ -28,7 +28,7 @@ Functions
 
 **Please follow the "readme.md" in both back-end and front-end.** 
 
-Start back-end server at first, then front-end
+## Start back-end server at first, then front-end
 
 It may take some time to cofig and run the back-end. Thank you for your cooperation.
 
