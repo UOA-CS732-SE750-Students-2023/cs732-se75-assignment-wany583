@@ -12,46 +12,39 @@ These instructions will help you get a copy of the project up and running on you
 ## Prerequisites
 What things you need to install:
 
-* JDK 1.8+
-* Maven 3+
-* IDEA (Recommend!), Eclipse, Vscode(Sometimes does not work)
+* JDK 1.8
+* IDEA (Recommend!)/ Vscode/ Eclipse
+Notice: 
+I leave the "/mvn/warpper/maven-wrapper.jar" in the git remote repository, It can developer to run this project without installing maven at first. 
 
-## Install and start the back-end project
-
-### Step 1. Build the project using Maven
-
-```bash```mvn clean install
-
-**Make sure there is no error(no red label) in "/pom.xml", 
-sometimes some dependencies can not download successfully, restart the IDE/VScode may work.**
-
-Sometimes you need to set Maven in IDE: Maven home path, setting file, local repository. 
-
-**If you are the first time to use maven, it may take several minutes to download all the dependencies.**
-
-* If you use command line, skip to the step 2.
-* If you use IDEA, just run the project.
-* If you use VSCode, please click the file "PsmBackendApplication.java". 
-Here is the path: "src/main/java/com/example/psmbackend/PsmBackendApplication.java"
-Then in the top right of VSCode, there is a triangular start button. Click it to run the project. 
-
-![44571681030561_ pic](https://user-images.githubusercontent.com/87680634/230778206-6f1f6a5f-6f40-4f7f-a616-bbf60a4682f3.jpg)
+## Install and start the back-end project (After that, come to front-end and run it)
 
 
-### Step 2. Build the project
-```bash``` mvn clean package
+### In VScode
+1. Let the back-end as root folder, and open it in VScode. 
+2. Find out the "PsmBackendApplication.java", the path is **"src/main/java/com/example/psmbackend/PsmBackendApplication.java"**
+3. Open it. Then in the top right of VSCode, there is a triangular start button. Click it to run the project. 
 
-After building, mvn will generate a "/target" folder. You can get the **jar file** in this folder. 
+![image](https://user-images.githubusercontent.com/87680634/230805273-8bfd2393-d442-4563-8c00-c39c78e50911.png)
 
-![image](https://user-images.githubusercontent.com/87680634/230778347-51d7f765-ead2-4551-ab1d-624bc61baaec.png)
+Notice: 
+* If you have not install java jdk, the VScode will show the install recommadation automaticly, **please choose jdk8**.
+* If it can not run, please run the following command to install mvn.
+```bash``` mvn clean install
+* If there are some unexpected bug, please restart the VScode. It always works, Thank you!
 
+### In IDEA
+1. Let the back-end as root folder, and open it in IDEA. 
+2. Run the following command to install mvn. Or use the maven component in IDEA.
+```bash``` mvn clean install
+![image](https://user-images.githubusercontent.com/87680634/230805801-78b05955-e05b-467c-9c6a-e86614ea8769.png)
+3. Run the project
+![image](https://user-images.githubusercontent.com/87680634/230805868-780689fc-2539-451a-8040-0240e214d6d4.png)
 
-
-### Step 3. Run the project
-
-```bash``` java -jar PsmBackend-0.0.1-SNAPSHOT.jar
-
-Notice: the .jar file name may be different, but the position is fixed. 
+Notice:
+* If there is no sever start config button. Please make sure the following setting
+![image](https://user-images.githubusercontent.com/87680634/230805997-2dac6c5d-ea49-431c-9cc2-19d7e3bbbd4d.png)
+* If there are some unexpected bug, please restart the VScode. It always works, Thank you!
 
 
 
