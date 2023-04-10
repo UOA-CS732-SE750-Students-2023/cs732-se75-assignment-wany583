@@ -28,6 +28,8 @@ Functions
 
 **Please follow the "readme.md" in both back-end and front-end.** 
 
+Start back-end server at first, then front-end
+
 It may take some time to cofig and run the back-end. Thank you for your cooperation.
 
 In next release, I will deploy it in docker.
@@ -41,14 +43,15 @@ java -jar PsmBackend-0.0.1-SNAPSHOT.jar
 ```
 
 
-
-
-
 ## Web Account Information 
 
 Email: admin@gmail.com
 
 Password: 123456
+
+
+## In /Postman-test-case
+There is a postman test case. You can import it in Postman to test the API in back-end without running the front-end.
 
 
 
